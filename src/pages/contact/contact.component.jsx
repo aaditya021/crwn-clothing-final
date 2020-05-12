@@ -4,11 +4,19 @@ import './contact.styles.scss';
 
 const Contact = () => (
     <div className='contact'>
+      <hr/>
+      <p><b>Email:  </b></p>
+      <p> crwnclothing.029@gmail.com</p>
       
-      <p><b>Email:  </b> crwn.clothing@gmail.com</p>
-      <p><b>Contact No: </b> 09804241525</p>
+      <hr/>
       
-    </div>
+      <p><b>Contact No: </b></p>
+      <p> 09059172071</p>
+      <hr/>
+
+     </div>
   );
+
+
 
 export default Contact;

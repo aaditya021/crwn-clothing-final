@@ -18,6 +18,8 @@ import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selectors';
 
+
+
 class App extends React.Component {
   unsubscribeFromAuth = null;
 
@@ -48,6 +50,7 @@ class App extends React.Component {
     return (
       <div>
         <Header />
+
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
@@ -65,6 +68,34 @@ class App extends React.Component {
             }
           />
         </Switch>
+
+
+
+
+
+        <footer >
+            <div class="container">
+            <br />
+                    <br />
+                <div class="copyright">
+                    &copy;
+                    
+                    <script >
+                        document.write(new Date().getFullYear())
+                    </script> Designed by
+                    <a href="/" target="_blank"> Group 029</a>. Made with
+                    <a href="https://reactjs.org/" target="_blank" > React</a>.
+                </div>
+                
+            </div>
+        </footer>
+
+
+
+
+
+
+
       </div>
     );
   }
