@@ -83,8 +83,8 @@ class App extends React.Component {
                     <script >
                         document.write(new Date().getFullYear())
                     </script> Designed by
-                    <a href="/" target="_blank"> Group 029</a>. Made with
-                    <a href="https://reactjs.org/" target="_blank" > React</a>.
+                    <a href="/" > Group 029</a>. Made with
+                    <a href="https://reactjs.org/"  > React</a>.
                 </div>
                 
             </div>

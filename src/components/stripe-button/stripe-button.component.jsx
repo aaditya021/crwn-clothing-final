@@ -17,13 +17,14 @@ const onToken = token => {
         billingAddress
         shippingAddress
         image='http://svgshare.com/i/CUz.svg'
-        description={'Your total is $${ price }'}
+        description={'Your total '}
         amount={priceForStripe}
+        currency='Rupee'
         panelLabel='Pay Now'
         token={onToken}
         stripeKey={publishableKey}
         />
-    )
+    );
 }
 
 export default StripeCheckoutButton;
