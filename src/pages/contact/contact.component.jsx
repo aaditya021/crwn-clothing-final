@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './contact.styles.scss';
-import {Image, Container, Col, Row} from 'react-bootstrap';
+import {Image} from 'react-bootstrap';
 
 const Contact = () => (
     <div className='contact'>
